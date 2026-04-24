@@ -1,0 +1,56 @@
+﻿l_english:
+#Naval Units
+ custom_unit_has_galleass:0 "The Galleass"
+ custom_unit_has_galleass_desc:0 "Galleass are special £galley_icon_small£galleys.\n\n§YCan only be build in provinces which have a Dock or Shipyard.§!\n\nGalleass modifiers:\n§G+20%§! Galley combat ability\n\nAllows Galleass\nPossible Galleass:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+ custom_unit_has_man_of_war:0 "The Man-of-war"
+ custom_unit_has_man_of_war_desc:0 "Man-of-war are special £big_ship_icon_small£heavy ships.\n\n§YCan only be build in provinces which have a Dock or Shipyard.§!\n\nMan-of-war modifiers:\n§G+15%§! Naval morale damage\n\nAllows Man-of-war\nPossible Man-of-war:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+ custom_unit_has_voc_indiamen:0 "The VOC Indiamen"
+ custom_unit_has_voc_indiamen_desc:0 "VOC Indiamen are special £light_ship_icon_small£light ships.\n\nVOC Indiamen modifiers:\n§G+33%§! Ship cannons\n§G+20%§! Ship trade power modifier\nCan transport Units\n\nAllows VOC Indiamen\nPossible VOC Indiamen:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+ custom_unit_has_caravel:0 "The Caravel"
+ custom_unit_has_caravel_desc:0 "Caravels are special £light_ship_icon_small£light ships.\n\n§YCan only be build in Iberian culture provinces that are not Andalusian.§!\n\nCaravel modifiers:\n§G-25%§! Naval attrition\n§G+33%§! Ship trade power\n§G+1§! Fleet movement speed\n\nAllows Caravel\nPossible Caravel:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+ custom_unit_has_galleon:0 "The Galleon"
+ custom_unit_has_galleon_desc:0 "Galleons are special £big_ship_icon_small£heavy ships.\n\n§YCan only be build in Iberian culture provinces that are not Andalusian.§!\n\nGalleon modifiers:\n§G+10%§! Heavy Ship combat ability\n§G+10%§! Hull size\n\nAllows Galleon\nPossible Galleon:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+ custom_unit_has_geobukseon:0 "The Geobukseon"
+ custom_unit_has_geobukseon_desc:0 "Geobukseons are special £galley_icon_small£galleys.\n\nGeobukseon modifiers:\n§G+10%§! Galley combat ability\n§G+10%§! Ship durability\n\nAllows Geobukseon\nPossible Geobukseon:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+#Land Units
+ custom_unit_has_banners:0 "The Banners"
+ custom_unit_has_banners_desc:0 "Banners are a special unit.\n\nBanners can be:\n£infantry_icon_small£Infantry or £cavalry_icon_small£Cavalry\n\nBanner modifiers:\n§G+5%§! Discipline\n§R-50%§! Reinforcement speed\n§G-75%§! Manpower Reinforcement Cost\n§G-50%§! Land Maintainance\n\nAllows Banners\nPossible Banners:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+
+ custom_unit_has_cawa:0 "The Cawa"
+ custom_unit_has_cawa_desc:0 "Cawa regiments are a special unit.\n\nCawa can be:\n£infantry_icon_small£Infantry\n\nCawa modifiers:\n§G-5%§! Shock damage received\n§G-50%§! Land attrition\n§G+50%§! Reinforce speed\n\nAllows Cawa\nPossible Cawa:\nLevel 1: §G+0.15§!\nLevel 2: §G+0.30§!\nLevel 3: §G+0.45§!\nLevel 4: §G+0.60§!\n"
+
+ custom_unit_has_cossacks:0 "The Cossacks"
+ custom_unit_has_cossacks_desc:0 "Cossacks are a special unit.\n\nCossacks can be:\n£infantry_icon_small£Infantry or £cavalry_icon_small£Cavalry\n\nCossack modifiers:\n§G+15%§! Shock damage bonus\n\nAllows Cossacks\nCossack Force Limit Fraction:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+
+ custom_unit_has_rajputs:0 "The Rajput"
+ custom_unit_has_rajputs_desc:0 "Rajput regiments are a special unit.\n\nRajput can be:\n£infantry_icon_small£Infantry\n\nRajput modifiers:\n§G-25%§! Regiment drill loss\n§G-50%§! Reinforce cost\n§G+5%§! Regiment Morale\n\nAllows Rajputs\nRajput Force Limit Fraction:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+
+ custom_unit_has_revolutionary_guards:0 "The Revolutionary Guard"
+ custom_unit_has_revolutionary_guards_desc:0 "Revolutionary Guards are a special unit.\n\nRevolutionary Guards can be:\n£infantry_icon_small£Infantry, £cavalry_icon_small£Cavalry or £artillery_icon_small£Artillery\n\nRevolutionary Guard modifiers:\n§G-10%§! Fire damage received\n§G-10%§! Shock damage received\n§G+100%§! Army drill gain modifier\n§G-50%§! Regiment drill loss\n\nAllows Revolutionary Guards\nRevolutionary Guard Force Limit Fraction:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+
+ custom_unit_has_streltsy:0 "The Streltsy"
+ custom_unit_has_streltsy_desc:0 "Streltsy regiments are a special unit.\n\nStreltsy can be:\n£infantry_icon_small£Infantry\n\nStreltsy modifiers:\n§G+10%§! Land Fire Damage\n§G-10%§! Fire damage received\n\nAllows Streltsy\nStreltsy Force Limit Fraction:\nLevel 1: §G+15%§!\nLevel 2: §G+30%§!\nLevel 3: §G+45%§!\nLevel 4: §G+60%§!\n"
+
+ custom_unit_has_carolean:0 "The Carolean"
+ custom_unit_has_carolean_desc:0 "Carolean regiments are a special unit.\n\n§YCan only be raised in Swedish and Finnish culture provinces.§!\n\nCarolean can be:\n£infantry_icon_small£Infantry\n\nCarolean modifiers:\n§G-25%§! Regiment drill loss\n§G+5%§! Morale Damage\n\nAllows Carolean\nPossible Carolean:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+
+ custom_unit_has_hussars:0 "The Hussars"
+ custom_unit_has_hussars_desc:0 "Hussars are a special unit.\n\nHussars can be:\n£cavalry_icon_small£Cavalry\n\nHussar modifiers:\n§G+1§! Cavalry Shock\n§G+50%§! Morale Damage\n§R-50%§! Reinforcement Speed\n\nAllows Hussars\nPossible Hussars:\nLevel 1: §G+5§!\nLevel 2: §G+10§!\nLevel 3: §G+15§!\nLevel 4: §G+20§!\n"
+
+ custom_unit_has_tercio:0 "The Tercio"
+ custom_unit_has_tercio_desc:0 "Tercio regiments are a special unit.\n\n§YCan only be raised in Iberian culture provinces.§!\n\nTercio can be:\n£infantry_icon_small£Infantry\n\nTercio modifiers:\n§G-30%§! Shock Damage Received\n\nAllows Tercio\nTercio Force Limit Fraction:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+
+ custom_unit_has_samurai:0 "The Samurai"
+ custom_unit_has_samurai_desc:0 "Samurai regiments are a special unit.\n\n§YCan only be raised in Japanese culture provinces.§!\n\nSamurai can be:\n£infantry_icon_small£Infantry\n\nSamurai modifiers:\n§G+5%§! Discipline\n§G-10%§! Morale Damage Taken\n§R+50%§! Reinforce Cost\n\nAllows Samurai\nSamurai Force Limit Fraction:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+
+ custom_unit_has_musketeers:0 "The Musketeers"
+ custom_unit_has_musketeers_desc:0 "Musketeers are a special unit.\n\nMusketeers can be:\n£infantry_icon_small£Infantry\n\nMusketeer modifiers:\n§G+15%§! Land Fire Damage\n\nAllows Musketeers\nMusketeer Force Limit Fraction:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
+
+ custom_unit_has_janissaries:0 "The Janissaries"
+ custom_unit_has_janissaries_desc:0 "Janissaries are a special unit.\n\nJanissaries can be:\n£infantry_icon_small£Infantry\n\nJanissary modifiers:\n§G-10%§! Fire damage received\n§G-10%§! Shock damage received\n§G+50%§! Army drill gain modifier\n§G+50%§! Assault fort ability\n§R+100%§! Reinforce cost\n\nAllows Janissaries\nAllows Janissaries in True Faith Provinces\n"
+
+ custom_unit_has_qizilbash:0 "The Qizilbash"
+ custom_unit_has_qizilbash_desc:0 "Qizilbash are a special unit.\n\n§YCan only be raised in Turkish, Azerbaijani or Turkmeni culture provinces, or provinces in Capital State.§!\n\nQizilbash can be:\n£infantry_icon_small£Infantry or £cavalry_icon_small£Cavalry\n\nQizilbash modifiers:\n§G-25%§! Land Maintainance\n§G-5%§! Fire damage received\n\nAllows Qizilbash\nQizilbash Force Limit Fraction:\nLevel 1: §G+5§!\nLevel 2: §G+10§!\nLevel 3: §G+15§!\nLevel 4: §G+20§!\n"
+
+ custom_unit_has_mamluks:0 "The Mamluks"
+ custom_unit_has_mamluks_desc:0 "Mamluks are a special unit.\n\nMamluks can be:\n£infantry_icon_small£Infantry or £cavalry_icon_small£Cavalry\n\nMamluk modifiers:\n§G+33%§! Reinforce Speed\n§G+100%§! Army drill gain modifier\n§G+10%§! Morale Damage\n\nAllows Mamluks\nMamluks Force Limit Fraction:\nLevel 1: §G+25%§!\nLevel 2: §G+50%§!\nLevel 3: §G+75%§!\nLevel 4: §G+100%§!\n"
