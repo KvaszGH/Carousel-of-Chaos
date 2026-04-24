@@ -1,0 +1,288 @@
+specialunits_idea_dip_modifiers = {
+	category = DIP
+	
+	#Galleass
+	custom_unit_has_galleass = {
+		has_galleass = yes
+		allowed_galleass_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Domination"
+		}
+	}
+
+	#Man-of-war
+	custom_unit_has_man_of_war = {
+		has_man_of_war = yes
+		allowed_man_of_war_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Domination"
+		}
+	}
+
+	#VOC Indiamen
+	custom_unit_has_voc_indiamen = {
+		has_voc_indiamen = yes
+		allowed_voc_indiamen_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Domination"
+		}
+	}
+
+	#Caravel
+	custom_unit_has_caravel = {
+		has_caravel = yes
+		allowed_caravel_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Domination"
+		}
+	}
+
+	#Galleon
+	custom_unit_has_galleon = {
+		has_galleon = yes
+		allowed_galleon_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Domination"
+		}
+	}
+
+	#Geobukseon
+	custom_unit_has_geobukseon = {
+		has_geobukseon = yes
+		allowed_geobukseon_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Domination"
+		}
+	}
+}
+
+specialunits_idea_mil_modifiers = {
+	category = MIL
+
+	#Banners
+	custom_unit_has_banners = {
+		has_banners = yes
+		amount_of_banners = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Mandate of Heaven"
+		}
+	}
+	
+	#Cawa - Doesn't work, old modifier enabled instead 06_origins_custom_ideas.txt
+	custom_unit_has_cawa = {
+		can_recruit_cawa = yes
+		amount_of_cawa = 0.15
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Origins"
+		}
+	}
+
+	#Cossacks
+	custom_unit_has_cossacks = {
+		can_recruit_cossacks = yes
+		allowed_cossack_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "The Cossacks"
+		}
+	}
+
+	#Rajputs
+	custom_unit_has_rajputs = {
+		can_recruit_rajputs = yes
+		allowed_rajput_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Dharma"
+		}
+	}
+
+	#Revolutionary Guard
+	custom_unit_has_revolutionary_guards = {
+		can_recruit_revolutionary_guards = yes
+		allowed_rev_guard_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 1
+		}
+		enabled = {
+			has_dlc = "Emperor"
+		}
+	}
+
+	#Streltsy
+	custom_unit_has_streltsy = {
+		has_streltsy = yes
+		allowed_streltsy_fraction = 0.15
+		max_level = 4
+		
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "Third Rome"
+		}
+	}
+
+	#Carolean
+	custom_unit_has_carolean = {
+		has_carolean = yes
+		amount_of_carolean = 0.25
+		max_level = 4
+		
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "Lions of the North"
+		}
+	}
+
+	#Winged Hussars
+	custom_unit_has_hussars = {
+		can_recruit_hussars = yes
+		amount_of_hussars = 5
+		max_level = 4
+		
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "Lions of the North"
+		}
+	}
+
+	#Tercio
+	custom_unit_has_tercio = {
+		has_tercio = yes
+		allowed_tercio_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "Domination"
+		}
+	}
+
+	#Samurai
+	custom_unit_has_samurai = {
+		has_samurai = yes 
+		allowed_samurai_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "Domination"
+		}
+	}
+
+	#Musketeers
+	custom_unit_has_musketeers = {
+		has_musketeer = yes 
+		allowed_musketeer_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "Domination"
+		}
+	}
+
+	#Janissaries
+	custom_unit_has_janissaries = {
+		can_recruit_janissaries = yes
+		allow_janissaries_from_own_faith = yes
+		max_level = 1
+
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "Cradle of Civilization"
+			has_dlc = "Domination"
+		}
+	}
+
+	#Qizilbash
+	custom_unit_has_qizilbash = {
+		has_qizilbash = yes
+		allowed_qizilbash_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "King of Kings"
+		}
+	}
+
+	#Mamluks
+	custom_unit_has_mamluks = {
+		has_mamluks = yes 
+		allowed_mamluks_fraction = 0.25
+		max_level = 4
+
+		chance = {
+			factor = 0
+		}
+		enabled = {
+			has_dlc = "King of Kings"
+		}
+	}
+}

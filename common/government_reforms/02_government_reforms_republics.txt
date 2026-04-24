@@ -34,9 +34,6 @@ oligarchy_reform = {
 		NOT = { has_reform = private_enterprise_colony_government }
 		NOT = { has_reform = self_governing_colony_government }
 	}
-	nation_designer_trigger = {
-		NOT = { culture_group = latin }
-	}
 	modifiers = {
 		burghers_loyalty_modifier = 0.05
 		global_tax_modifier = 0.05
@@ -62,9 +59,6 @@ signoria_reform = {
 	potential = {
 		culture_group = latin
 	}
-	nation_designer_trigger = {
-		culture_group = latin
-	}
 	modifiers = {
 		global_tax_modifier = 0.15
 		max_absolutism = 10
@@ -88,7 +82,7 @@ protectorate_parliament_reform = {
 	lock_level_when_selected = yes
 	valid_for_new_country = no
 	valid_for_nation_designer = no
-	nation_designer_cost = 15
+	nation_designer_cost = 0
 	legacy_equivalent = protectorate_parliament_legacy
 	modifiers = {
 		global_autonomy = -0.05
@@ -136,7 +130,7 @@ parliamentary_republic_reform = {
 	}
 	lock_level_when_selected = yes
 	valid_for_new_country = no
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	valid_for_nation_designer = yes
 	modifiers = {
 		global_autonomy = -0.05
@@ -229,7 +223,7 @@ prussian_republic_reform = {
 		}
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 100
+	nation_designer_cost = 0
 	legacy_equivalent = prussian_republic
 	
 	modifiers = {
@@ -265,7 +259,7 @@ merchants_reform = {
 		merchants = 1
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	legacy_equivalent = merchant_republic
 	potential = {
 		NOT = {
@@ -360,7 +354,7 @@ venice_merchants_reform = {
 		monarch_lifespan = 0.25
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	legacy_equivalent = venetian_merchant_republic
 	potential = {
 		NOT = { map_setup = map_setup_random }
@@ -368,10 +362,6 @@ venice_merchants_reform = {
 			tag = VEN
 			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = venice_merchants_reform
-			}
-			AND = {
-				tag = ITA
 				have_had_reform = venice_merchants_reform
 			}
 		}
@@ -448,7 +438,7 @@ pirate_republic_reform = {
 		}
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	can_form_trade_league = no
 	
 	nation_designer_trigger = {
@@ -456,18 +446,6 @@ pirate_republic_reform = {
 			has_dlc = "Lions of the North"
 			has_dlc = "Golden Century"
 		}
-		capital_scope = {
-			has_port = yes
-			OR = {
-				province_is_on_an_island = yes
-				region = maghreb_region
-			}
-		}
-		NOT = { technology_group = andean }
-		NOT = { technology_group = north_american }
-		NOT = { technology_group = south_american }
-		NOT = { technology_group = aboriginal_tech }
-		NOT = { technology_group = mesoamerican }
 	}
 
 	removed_effect = {
@@ -564,7 +542,7 @@ military_dictatorship_reform = {
 		has_reform = military_dictatorship_reform
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 25
+	nation_designer_cost = 0
 	legacy_equivalent = military_dictatorship
 	has_term_election = no
 	modifiers = {
@@ -603,7 +581,7 @@ revolutionary_republic_reform = {
 		max_revolutionary_zeal = 50
 		max_absolutism = 40
 		papal_influence = -100
-		allowed_rev_guard_fraction = 0.2	
+		allowed_rev_guard_fraction = 0.2
 	}
 	fixed_rank = 3
 	effect = {
@@ -801,7 +779,7 @@ peasants_republic = {
 		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 	legacy_equivalent = peasants_republic_legacy
 	modifiers = {
 		production_efficiency = 0.1
@@ -849,10 +827,9 @@ ikko_ikki_republic_reform = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_trigger = {
-		culture_group = japanese_g
 		religion_group = eastern
 	}
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 	modifiers = {
 		yearly_harmony = 0.25
 		yearly_karma_decay = 0.002
@@ -893,11 +870,7 @@ kongsi_federation = {
 		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
-	nation_designer_trigger = {
-		primary_culture = hakka
-		technology_group = chinese
-	}
+	nation_designer_cost = 0
 	modifiers = {
 		production_efficiency = 0.1
 		republican_tradition = 0.5
@@ -921,11 +894,7 @@ free_city = {
 	legacy_equivalent = imperial_city
 	valid_for_nation_designer = yes
 	lock_level_when_selected = yes
-	nation_designer_cost = 40
-	nation_designer_trigger = {
-		capital_scope = { is_part_of_hre = yes }
-		NOT = { num_custom_nation_provinces = 2 }
-	}
+	nation_designer_cost = 0
 
 	free_city = yes
 	modifiers = {
@@ -1010,7 +979,7 @@ ambrosian_republic = {
 	}
 	legacy_equivalent = ambrosian_republic_legacy
 	valid_for_nation_designer = yes
-	nation_designer_cost = 25
+	nation_designer_cost = 0
 	modifiers = {
 		global_tax_modifier = 0.1
 		land_morale = 0.05
@@ -1040,12 +1009,6 @@ veche_republic = {
 		}
 	}
 	legacy_equivalent = veche_republic_legacy
-	nation_designer_trigger = {
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
-	}
 	modifiers = {
 		merchants = 1
 		governing_capacity = 100
@@ -1054,7 +1017,7 @@ veche_republic = {
 		allowed_streltsy_fraction = 0.1
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 
 	factions = {
 		mr_aristocrats
@@ -1144,15 +1107,7 @@ great_veche_republic = {
 	}
 	fixed_rank = 3
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
-
-	nation_designer_trigger = {
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
-		religion = orthodox
-	}
+	nation_designer_cost = 0
 
 	modifiers = {
 		global_manpower_modifier = 0.2
@@ -1214,7 +1169,7 @@ great_russian_republic_reform = {
 	}
 	fixed_rank = 3
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 
 	modifiers = {
 		global_manpower_modifier = 0.2
@@ -1280,7 +1235,7 @@ american_republic = {
 		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 15
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		has_dlc = "American Dream"
 	}
@@ -1332,7 +1287,7 @@ federal_republic = {
 	}
 	legacy_equivalent = federal_republic_legacy
 	valid_for_nation_designer = yes
-	nation_designer_cost = 15
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		has_dlc = "American Dream"
 	}
@@ -1619,7 +1574,7 @@ trade_company_government = {
 		global_manpower_modifier = 0.1
 		naval_forcelimit_modifier = 0.1
 	}
-	nation_designer_cost = 60
+	nation_designer_cost = 0
 	valid_for_nation_designer = yes
 	boost_income = yes
 	duration = 4
@@ -1681,13 +1636,7 @@ english_parliamentary_republic_government = {
 			culture = anglois
 		}
 	}
-	nation_designer_cost = 20
-	nation_designer_trigger = {
-		OR = {
-			culture_group = british
-			culture = anglois
-		}
-	}
+	nation_designer_cost = 0
 	valid_for_nation_designer = yes
 	modifiers = {
 		num_of_parliament_issues = 1
@@ -1721,14 +1670,11 @@ english_parliamentary_republic_government = {
 roman_republic_government = {
 	icon = "roman_empire"
 	allow_normal_conversion = no
-	nation_designer_trigger = {
-		primary_culture = roman
-	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 100
+	nation_designer_cost = 0
 	potential = {
 		has_dlc = "Domination"
-		primary_culture = roman
+		primary_culture = roman 
 		OR = {
 			tag = ROM
 			tag = BYZ
@@ -1841,11 +1787,10 @@ calvinist_republic_government = {
 		religion = reformed 
 		NOT = { total_development = 400 }
 	}
-	nation_designer_cost = 50
+	nation_designer_cost = 0
 	valid_for_nation_designer = no
 	nation_designer_trigger = {
 		religion = reformed 
-		NOT = { total_development = 400 }
 	}
 	modifiers = {
 		monthly_fervor_increase = 0.1
@@ -1881,7 +1826,7 @@ dutch_republic = {
 	}
 	legacy_equivalent = dutch_republic_legacy
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	royal_marriage = yes
 
 	modifiers = {
@@ -1982,7 +1927,7 @@ cossacks_reform = {
 		enables_aristocratic_idea_group = no
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 60
+	nation_designer_cost = 0
 
 	modifiers = {
 		cavalry_power = 0.2
@@ -2016,7 +1961,7 @@ city_alliance_reform = {
 		religion = nahuatl
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	modifiers = {
 		global_unrest = -1
 		reduced_liberty_desire = 5
@@ -4085,30 +4030,6 @@ millenarian_theocracy_reform = {
 	}
 	custom_attributes = {
 		election_on_death = yes
-	}
-	ai = {
-		factor = 10
-	}
-}
-
-ven_promissione_ducale_reform = {
-	icon = "ven_promissione_ducale_reform"
-	allow_normal_conversion = yes
-	potential = {
-		OR = {
-			has_unlocked_government_reform = { government_reform = ven_promissione_ducale_reform }
-			have_had_reform = ven_promissione_ducale_reform
-		}
-	}
-	trigger = {
-		is_or_was_tag = { tag = VEN }
-		government = republic
-	}
-	modifiers = {
-		yearly_corruption = -0.25
-		candidate_random_bonus = 1
-		monthly_authority_power = 0.1
-
 	}
 	ai = {
 		factor = 10

@@ -3,9 +3,6 @@ emperor_idea_adm_modifiers = {
 	
 	custom_max_zeal = {
 		max_revolutionary_zeal = 5
-		level_cost_2 = 5
-		level_cost_3 = 15
-		level_cost_4 = 30
 		chance = {
 			factor = 0
 		}
@@ -16,9 +13,6 @@ emperor_idea_adm_modifiers = {
 	
 	custom_monarch_lifespan = {
 		monarch_lifespan = 0.1
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.25
 		}
@@ -26,9 +20,6 @@ emperor_idea_adm_modifiers = {
 	
 	custom_patriarch_authority = {
 		yearly_patriarch_authority = 0.005
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		enabled = {
 			has_dlc = "Third Rome"
 		}
@@ -43,9 +34,6 @@ emperor_idea_adm_modifiers = {
 	
 	custom_church_loyalty = {
 		church_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 			modifier = {
@@ -57,9 +45,6 @@ emperor_idea_adm_modifiers = {
 	
 	custom_dhimmi_loyalty = {
 		dhimmi_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 			modifier = {
@@ -71,9 +56,6 @@ emperor_idea_adm_modifiers = {
 	
 	custom_jains_loyalty = {
 		jains_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 			modifier = {
@@ -89,9 +71,6 @@ emperor_idea_dip_modifiers = {
 	
 	custom_burghers_loyalty = {
 		burghers_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 			modifier = {
@@ -103,9 +82,6 @@ emperor_idea_dip_modifiers = {
 	
 	custom_vaisyas_loyalty = {
 		vaisyas_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 			modifier = {
@@ -117,7 +93,6 @@ emperor_idea_dip_modifiers = {
 	
 	custom_allowed_marine_fraction = {
 		allowed_marine_fraction = 0.25
-		level_cost_2 = 5
 		max_level = 2
 	
 		enabled = {
@@ -138,9 +113,6 @@ emperor_idea_dip_modifiers = {
 	
 	custom_mercantilism_cost = {
 		mercantilism_cost = -0.05
-		level_cost_2 = 5
-		level_cost_3 = 15		
-		level_cost_4 = 30
 
 		enabled = {
 			has_dlc = "Mare Nostrum"
@@ -156,9 +128,6 @@ emperor_idea_mil_modifiers = {
 	
 	custom_available_province_loot = {
 		available_province_loot = 0.15
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 		}
@@ -166,9 +135,6 @@ emperor_idea_mil_modifiers = {
 	
 	custom_special_unit_forcelimit = {
 		special_unit_forcelimit = 0.15
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		
 		chance = {
 			factor = 0.25
@@ -177,9 +143,6 @@ emperor_idea_mil_modifiers = {
 	
 	custom_nobles_loyalty = {
 		nobles_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 		}
@@ -187,9 +150,6 @@ emperor_idea_mil_modifiers = {
 	
 	custom_maratha_loyalty = {
 		maratha_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 		}
@@ -197,9 +157,6 @@ emperor_idea_mil_modifiers = {
 	
 	custom_rajput_loyalty = {
 		rajput_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 		}
@@ -207,9 +164,6 @@ emperor_idea_mil_modifiers = {
 	
 	custom_cossacks_loyalty = {
 		cossacks_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 		}
@@ -217,9 +171,6 @@ emperor_idea_mil_modifiers = {
 	
 	custom_nomadic_tribes_loyalty = {
 		nomadic_tribes_loyalty_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 		}

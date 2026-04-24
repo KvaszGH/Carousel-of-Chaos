@@ -6,8 +6,6 @@ newer_newer_idea_adm_modifiers = {
 	custom_negative_piety = {
 		monthly_piety = -0.001
 		max_level = 2
-		level_cost_1 = 9
-		level_cost_2 = 18
 		chance = {
 			factor = 1
 			modifier = {
@@ -21,8 +19,6 @@ newer_newer_idea_adm_modifiers = {
 	custom_positive_piety = {
 		monthly_piety = 0.001
 		max_level = 2
-		level_cost_1 = 9
-		level_cost_2 = 18
 		chance = {
 			factor = 1
 			modifier = {
@@ -36,9 +32,6 @@ newer_newer_idea_adm_modifiers = {
 	custom_reform_progress = {
 		reform_progress_growth = 0.075
 		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.25
 		}
@@ -46,7 +39,6 @@ newer_newer_idea_adm_modifiers = {
 	custom_free_religion = {
 		no_religion_penalty = yes
 		max_level = 1
-		level_cost_1 = 45
 		chance = {
 			factor = 0.15
 			modifier = {
@@ -57,9 +49,6 @@ newer_newer_idea_adm_modifiers = {
 	}
 	custom_same_culture_idea_advisor_cost = {
 		same_culture_advisor_cost = -0.05
-		level_cost_2 = 1
-		level_cost_3 = 6
-		level_cost_4 = 9
 		chance = {
 			factor = 1
 		}
@@ -72,7 +61,6 @@ newer_newer_idea_dip_modifiers = {
 	custom_power_prod_insults = {
 		power_projection_from_insults = 1
 		max_level = 1
-		level_cost_1 = 10
 		chance = {
 			factor = 0.33
 		}
@@ -80,7 +68,6 @@ newer_newer_idea_dip_modifiers = {
 	custom_manifest_destiny = {
 		cb_on_primitives = yes
 		max_level = 1
-		level_cost_1 = 35
 		chance = {
 			factor = 0.15
 			modifier = {
@@ -97,9 +84,6 @@ newer_newer_idea_dip_modifiers = {
 	custom_justify_conflict_cost = {
 		justify_trade_conflict_cost = -0.175
 		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.25
 		}
@@ -107,9 +91,6 @@ newer_newer_idea_dip_modifiers = {
 	custom_claim_fab_cost = {
 		fabricate_claims_cost = -0.175
 		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.25
 		}
@@ -117,9 +98,6 @@ newer_newer_idea_dip_modifiers = {
 	custom_sailor_maintenance = {
 		sailor_maintenance_modifer = -0.1
 		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 1
 			modifier = {
@@ -131,8 +109,6 @@ newer_newer_idea_dip_modifiers = {
 	custom_coastal_combat = {
 		own_coast_naval_combat_bonus = 1
 		max_level = 2
-		level_cost_1 = 10
-		level_cost_2 = 40
 		chance = {
 			factor = 1
 			modifier = {
@@ -148,37 +124,30 @@ newer_newer_idea_mil_modifiers = {
 	custom_artillery_fire = {
 		artillery_fire = 1
 		max_level = 1
-		level_cost_1 = 25
 		chance = {
 			factor = 0.05
 		}
 	}
-	custom_manchu_ban = {
-		amount_of_banners = 0.125
-		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
+	# custom_manchu_ban = {
+	# 	amount_of_banners = 0.125
+	# 	max_level = 4
 
-		enabled = {
-			has_dlc = "Mandate of Heaven"
-		}
+	# 	enabled = {
+	# 		has_dlc = "Mandate of Heaven"
+	# 	}
 
-		chance = {
-			factor = 1
-			modifier = {
-				NOT = { primary_culture = manchu_new }
-				NOT = { primary_culture = manchu }
-				factor = 0
-			}
-		}
-	}
+	# 	chance = {
+	# 		factor = 1
+	# 		modifier = {
+	# 			NOT = { primary_culture = manchu_new }
+	# 			NOT = { primary_culture = manchu }
+	# 			factor = 0
+	# 		}
+	# 	}
+	# }
 	custom_garrison_growth = {
 		global_garrison_growth = 0.175
 		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 1
 		}

@@ -6,9 +6,7 @@ adm_idea_modifiers = {
 	
 	custom_idea_global_tax_modifier = {
 		global_tax_modifier = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
+		max_level = 4
 		default = 2
 		chance = {
 			factor = 1
@@ -16,9 +14,7 @@ adm_idea_modifiers = {
 	}		
 	custom_idea_production_efficiency = {
 		production_efficiency = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18		
+		max_level = 4
 		default = 8
 		chance = {
 			factor = 1
@@ -26,9 +22,7 @@ adm_idea_modifiers = {
 	}	
 	custom_idea_global_unrest = {
 		global_unrest = -0.5
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18			
+		max_level = 4
 		default = 5
 		chance = {
 			factor = 1
@@ -36,9 +30,7 @@ adm_idea_modifiers = {
 	}
 	custom_idea_stability_cost_modifier = {
 		stability_cost_modifier = -0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18		
+		max_level = 4
 		default = 3	
 		chance = {
 			factor = 1
@@ -47,8 +39,6 @@ adm_idea_modifiers = {
 	custom_idea_missionaries = {
 		missionaries = 1
 		max_level = 2
-		level_cost_1 = 15
-		level_cost_2 = 50
 		chance = {
 			factor = 0.5
 			modifier = {
@@ -65,9 +55,7 @@ adm_idea_modifiers = {
 	}
 	custom_idea_inflation_action_cost = {
 		inflation_action_cost = -0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
+		max_level = 4
 		chance = {
 			factor = 1
 		}
@@ -75,8 +63,6 @@ adm_idea_modifiers = {
 	custom_idea_interest = {
 		interest = -0.5
 		max_level = 2
-		level_cost_1 = 5
-		level_cost_2 = 30
 		chance = {
 			factor = 1
 		}
@@ -90,8 +76,6 @@ adm_idea_modifiers = {
 	custom_idea_development_cost = {
 		development_cost = -0.1
 		max_level = 2
-		level_cost_1 = 5
-		level_cost_2 = 30
 		chance = {
 			factor = 0.75
 		}
@@ -120,7 +104,6 @@ adm_idea_modifiers = {
 	}
 	custom_idea_legitimacy = {
 		legitimacy = 0.5
-		level_cost_2 = 15
 		max_level = 2
 		
 		# Used for random generation
@@ -134,7 +117,6 @@ adm_idea_modifiers = {
 	}
 	custom_idea_horde_unity = {
 		horde_unity = 0.5
-		level_cost_2 = 15
 		max_level = 2
 		
 		# Used for random generation
@@ -157,7 +139,6 @@ adm_idea_modifiers = {
 	}
 	custom_idea_devotion = {
 		devotion = 0.5
-		level_cost_2 = 15
 		max_level = 2
 		
 		# Used for random generation
@@ -176,8 +157,6 @@ adm_idea_modifiers = {
 	custom_idea_republican_tradition = {
 		republican_tradition = 0.15
 		max_level = 2
-		level_cost_1 = 20
-		level_cost_2 = 60	
 		
 		# Used for random generation
 		chance = {
@@ -190,8 +169,6 @@ adm_idea_modifiers = {
 	}		
 	custom_idea_technology_cost = {
 		technology_cost = -0.05
-		level_cost_1 = 5
-		level_cost_2 = 30
 		max_level = 2
 		chance = {
 			factor = 0.33
@@ -200,17 +177,13 @@ adm_idea_modifiers = {
 	custom_idea_idea_cost = {
 		idea_cost = -0.05
 		max_level = 2	
-		level_cost_1 = 3
-		level_cost_2 = 18
 		chance = {
 			factor = 0.33
 		}
 	}		
 	custom_idea_advisor_cost = {
 		advisor_cost = -0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
+		max_level = 4
 		chance = {
 			factor = 1
 		}
@@ -218,8 +191,6 @@ adm_idea_modifiers = {
 	custom_idea_advisor_pool = {
 		advisor_pool = 1
 		max_level = 2
-		level_cost_1 = 5
-		level_cost_2 = 30
 		chance = {
 			factor = 0.4
 		}
@@ -227,8 +198,6 @@ adm_idea_modifiers = {
 	custom_idea_tolerance_own = {
 		tolerance_own = 1
 		max_level = 2
-		level_cost_1 = 3
-		level_cost_2 = 18
 		chance = {
 			factor = 1
 			modifier = {
@@ -245,8 +214,6 @@ adm_idea_modifiers = {
 	custom_idea_tolerance_heretic = {
 		tolerance_heretic = 1
 		max_level = 2
-		level_cost_1 = 3
-		level_cost_2 = 18
 		chance = {
 			factor = 1
 		}
@@ -254,17 +221,13 @@ adm_idea_modifiers = {
 	custom_idea_tolerance_heathen = {
 		tolerance_heathen = 1
 		max_level = 2
-		level_cost_1 = 3
-		level_cost_2 = 18
 		chance = {
 			factor = 1
 		}
 	}
 	custom_idea_heir_chance = {
 		heir_chance = 0.25
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
+		max_level = 4
 		chance = {
 			factor = 0.5
 			modifier = {
@@ -275,9 +238,7 @@ adm_idea_modifiers = {
 	}
 	custom_idea_enemy_core_creation = {
 		enemy_core_creation = 0.15
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
+		max_level = 4
 		chance = {
 			factor = 0
 		}
@@ -294,9 +255,7 @@ adm_idea_modifiers = {
 	}
 	custom_idea_vassal_income = {
 		vassal_income = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
+		max_level = 4
 		chance = {
 			factor = 0.5
 			modifier = {
@@ -311,9 +270,7 @@ adm_idea_modifiers = {
 	}
 	custom_idea_religious_unity = {
 		religious_unity = 0.075
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
+		max_level = 4
 		chance = {
 			factor = 1
 			modifier = {
@@ -328,14 +285,10 @@ adm_idea_modifiers = {
 	}
 	custom_idea_global_autonomy = {
 		global_autonomy = -0.05		
-		level_cost_1 = 5
-		level_cost_2 = 30
 		max_level = 2
 	}
 	custom_idea_imperial_authority = {
 		imperial_authority = 0.1
-		level_cost_1 = 5
-		level_cost_2 = 30
 		max_level = 2
 		chance = {
 			factor = 0.5
@@ -352,7 +305,6 @@ adm_idea_modifiers = {
 	custom_idea_free_adm_policy = {
 		free_adm_policy = 1
 		max_level = 1
-		level_cost_1 = 30
 		chance = {
 			factor = 0.25
 		}
@@ -360,7 +312,6 @@ adm_idea_modifiers = {
 	custom_idea_possible_adm_policy = {
 		possible_adm_policy = 1
 		max_level = 1
-		level_cost_1 = 30
 		chance = {
 			factor = 0.25
 		}

@@ -61,7 +61,7 @@ monastic_order_reform = {
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	icon = "monks"
 	allow_normal_conversion = yes
 	legacy_equivalent = monastic_order_government
@@ -90,7 +90,7 @@ crusading_kingdom_reform = {
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 75
+	nation_designer_cost = 0
 	modifiers = {
 		global_missionary_strength = 0.01
 		army_tradition_from_battle = 0.25
@@ -114,7 +114,7 @@ teutonic_bishopric_reform = {
 	}
 	allow_normal_conversion = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	modifiers = {
 		papal_influence = 0.5
 		church_power_modifier = 0.1
@@ -187,7 +187,7 @@ prussian_theocratic_reform = {
 		}
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 100
+	nation_designer_cost = 0
 	
 	modifiers = {
 		war_exhaustion = -0.02
@@ -225,7 +225,7 @@ militarized_crusader_order_reform = {
 		}
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 200
+	nation_designer_cost = 0
 	
 	modifiers = {
 		global_missionary_strength = 0.02
@@ -255,7 +255,7 @@ blood_theocracy_reform = {
 		religion = nahuatl
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	modifiers = {
 		monthly_blood = 0.1
 		tolerance_own = 1
@@ -280,7 +280,7 @@ holy_horde_reform = {
 	allow_normal_conversion = no
 	icon = "holy_horde"
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	potential = {
 		OR = {
 			has_unlocked_government_reform = { government_reform = holy_horde_reform }
@@ -329,7 +329,7 @@ merchant_theocracy_reform = {
 		curia_treasury_contribution = 0.25
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	potential = {
 		OR = {
 			has_reform = merchant_theocracy_reform
@@ -422,7 +422,7 @@ reformer_state_reform = {
 	allow_normal_conversion = yes
 	icon = "reformer"
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	modifiers = {
 		governing_capacity_modifier = -0.25
 		development_cost = -0.1
@@ -515,10 +515,9 @@ ikko_ikki_reform = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_trigger = {
-		culture_group = japanese_g
 		religion_group = eastern
 	}
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 	modifiers = {
 		yearly_harmony = 0.25
 		yearly_karma_decay = 0.002
@@ -565,13 +564,9 @@ tibetan_dual_government_reform = {
 	}
 	nation_designer_trigger = {
 		religion_group = eastern
-		OR = {
-			primary_culture = tibetan
-			culture_group = tibetan_group
-		}
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	modifiers = {
 		same_religion_advisor_cost = -0.15
 		yearly_harmony = 0.25
@@ -630,7 +625,7 @@ caliphate_theocracy_reform = {
 		religion_group = muslim
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 50
+	nation_designer_cost = 0
 	modifiers = {
 		warscore_cost_vs_other_religion = -0.1
 		tolerance_own = 3
@@ -671,7 +666,7 @@ dutch_theocracy_reform = {
 		NOT = { tag = PAP }
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	modifiers = {
 		heavy_ship_power = 0.1
 		trade_efficiency = 0.1
@@ -691,10 +686,7 @@ dutch_theocracy_reform = {
 	}
 	conditional = {
 		allow = {
-			or = {
-				has_dlc = "Res Publica"
-				has_dlc = "Winds of Change"
-			}
+			has_dlc = "Res Publica"
 		}
 		queen = no
 		heir = no
@@ -740,7 +732,7 @@ orthodox_patriarchate_reform = {
 	nation_designer_trigger = {
 		religion = orthodox
 	}
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	modifiers = {
 		church_privilege_slots = 1
 		church_loyalty_modifier = 0.1
@@ -759,7 +751,7 @@ fifth_monarchists_reform = {
 		religion_group = christian
 	}
 	lock_level_when_selected = yes
-	nation_designer_cost = 100
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		has_dlc = "Domination"
 	}
@@ -806,7 +798,7 @@ millennialistic_theocracy_reform = {
 		}
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	modifiers = {
 		monthly_church_power = 1
 		monthly_fervor_increase = 0.25
@@ -836,7 +828,7 @@ zoroastrian_theocracy_reform = {
 	nation_designer_trigger = {
 		religion_group = zoroastrian_group
 	}
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	modifiers = {
 		church_privilege_slots = 2
 		church_influence_modifier = -0.2
@@ -876,7 +868,6 @@ ajuuraan_theocracy_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_trigger = {
 		religion_group = muslim
-		primary_culture = somali
 	}
 	nation_designer_cost = 0
 	modifiers = {
@@ -939,7 +930,7 @@ sisterhood_of_jeanne_darc_reform = {
 	trigger = {
 		religion_group = christian
 	}
-	nation_designer_cost = 100
+	nation_designer_cost = 0
 	modifiers = {
 		cb_on_religious_enemies = yes
 		monarch_military_power = 1

@@ -4,8 +4,6 @@ lotn_idea_adm_modifiers = {
 	custom_global_allowed_num_of_buildings = {
 		global_allowed_num_of_buildings = 1
 		max_level = 2
-		level_cost_1 = 5
-		level_cost_2 = 30
 		
 		chance = {
 			factor = 0.1
@@ -14,10 +12,6 @@ lotn_idea_adm_modifiers = {
 	
 	custom_all_estate_influence_modifier_positive = {
 		all_estate_influence_modifier = 0.05
-		level_cost_1 = 0
-		level_cost_2 = -3
-		level_cost_3 = -6
-		level_cost_4 = -9
 		
 		chance = {
 			factor = 0.1
@@ -26,10 +20,6 @@ lotn_idea_adm_modifiers = {
 	
 	custom_all_estate_influence_modifier_negative = {
 		all_estate_influence_modifier = -0.05
-		level_cost_1 = 5
-		level_cost_2 = 10
-		level_cost_3 = 15
-		level_cost_4 = 20
 		
 		chance = {
 			factor = 0.1
@@ -38,7 +28,6 @@ lotn_idea_adm_modifiers = {
 	
 	custom_ignore_coring_distance = {
 		ignore_coring_distance = yes
-		level_cost_1 = 50
 		max_level = 1
 		
 		chance = {
@@ -48,8 +37,6 @@ lotn_idea_adm_modifiers = {
 	
 	custom_national_focus_years = {
 		national_focus_years = -5
-		level_cost_1 = 5
-		level_cost_2 = 15
 		max_level = 2
 		
 		chance = {
@@ -59,7 +46,6 @@ lotn_idea_adm_modifiers = {
 	
 	custom_no_stability_loss_on_monarch_death = {
 		no_stability_loss_on_monarch_death = yes
-		level_cost_1 = 10
 		max_level = 1
 		
 		chance = {
@@ -69,10 +55,6 @@ lotn_idea_adm_modifiers = {
 	
 	custom_development_cost_modifier = {
 		development_cost_modifier = -0.05
-		level_cost_1 = 20
-		level_cost_2 = 40
-		level_cost_3 = 60
-		level_cost_4 = 100
 		
 		chance = {
 			factor = 0.1
@@ -89,10 +71,6 @@ lotn_idea_adm_modifiers = {
 	
 	custom_global_trade_goods_size = {
 		global_trade_goods_size = 0.5
-		level_cost_1 = 15
-		level_cost_2 = 30
-		level_cost_3 = 45
-		level_cost_4 = 60
 		
 		chance = {
 			factor = 0.1
@@ -103,7 +81,6 @@ lotn_idea_adm_modifiers = {
 	custom_can_not_build_colonies = {
 		can_not_build_colonies = yes
         max_level = 1
-		level_cost_1 = -10
 		
 		chance = {
 			factor = 0
@@ -112,7 +89,6 @@ lotn_idea_adm_modifiers = {
     custom_can_not_build_buildings = {
         can_not_build_buildings = yes
         max_level = 1
-        level_cost_1 = -40
         chance = {
             factor = 0
         }
@@ -120,7 +96,6 @@ lotn_idea_adm_modifiers = {
     custom_can_not_build_missionaries = {
         can_not_build_missionaries = yes
         max_level = 1
-        level_cost_1 = -10
         chance = {
             factor = 0
         }
@@ -128,7 +103,6 @@ lotn_idea_adm_modifiers = {
     custom_can_not_declare_war = {
         can_not_declare_war = yes
         max_level = 1
-        level_cost_1 = -100
         chance = {
             factor = 0
         }
@@ -136,7 +110,6 @@ lotn_idea_adm_modifiers = {
     custom_can_not_send_merchants = {
         can_not_send_merchants = yes
         max_level = 1
-        level_cost_1 = -40
         chance = {
             factor = 0
         }
@@ -144,7 +117,6 @@ lotn_idea_adm_modifiers = {
     custom_capped_by_forcelimit = {
         capped_by_forcelimit = yes
         max_level = 1
-        level_cost_1 = -25
         chance = {
             factor = 0
         }
@@ -178,7 +150,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_can_colony_boost_development = {
 		colony_development_boost = 1
-		level_cost_1 = 50
 		max_level = 1
 		
 		chance = {
@@ -188,7 +159,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_can_transfer_vassal_wargoal = {
 		can_transfer_vassal_wargoal = yes
-		level_cost_1 = 20
 		max_level = 1
 		
 		chance = {
@@ -198,7 +168,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_can_chain_claim = {
 		can_chain_claim = yes
-		level_cost_1 = 25
 		max_level = 1
 		
 		chance = {
@@ -208,10 +177,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_reasons_to_elect = {
 		reasons_to_elect = 5
-		level_cost_1 = 15
-		level_cost_2 = 30
-		level_cost_3 = 45
-		level_cost_4 = 60
 		
 		chance = {
 			factor = 0.1
@@ -220,7 +185,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_allow_client_states = {
 		allow_client_states = yes
-		level_cost_1 = 10
 		max_level = 1
 		
 		chance = {
@@ -230,7 +194,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_allow_free_estate_privilege_revocation = {
 		allow_free_estate_privilege_revocation = yes
-		level_cost_1 = 100
 		max_level = 1
 		
 		chance = {
@@ -240,7 +203,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_free_maintenance_on_expl_conq = {
 		free_maintenance_on_expl_conq = yes
-		level_cost_1 = 75
 		max_level = 1
 		
 		chance = {
@@ -250,10 +212,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_stability_cost_to_declare_war = {
 		stability_cost_to_declare_war = -1
-		level_cost_1 = 50
-		level_cost_2 = 100
-		level_cost_3 = 150
-		level_cost_4 = 200
 		
 		chance = {
 			factor = 0.1
@@ -262,9 +220,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_transport_attrition = {
 		transport_attrition = -0.25
-		level_cost_2 = 5
-		level_cost_3 = 10
-		level_cost_4 = 15
 		
 		chance = {
 			factor = 0.1
@@ -273,9 +228,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_regiment_disembark_speed = {
 		regiment_disembark_speed = 0.25
-		level_cost_2 = 5
-		level_cost_3 = 10
-		level_cost_4 = 15
 		
 		chance = {
 			factor = 0.1
@@ -284,9 +236,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_years_to_integrate_personal_union = {
 		years_to_integrate_personal_union = -5
-		level_cost_2 = 5
-		level_cost_3 = 10
-		level_cost_4 = 15
 		
 		chance = {
 			factor = 0.1
@@ -295,8 +244,6 @@ lotn_idea_dip_modifiers = {
 	
 	custom_landing_penalty = {
 		landing_penalty = -1
-		level_cost_1 = 5
-		level_cost_2 = 30
 		max_level = 2
 		
 		chance = {
@@ -307,7 +254,6 @@ lotn_idea_dip_modifiers = {
     custom_cb_on_overseas = {
         cb_on_overseas = yes
         max_level = 1
-		level_cost_1 = 50
 		chance = {
 			factor = 0.15
 			modifier = {
@@ -465,7 +411,6 @@ lotn_idea_dip_modifiers = {
     #}
     custom_flagship_cost = {
         flagship_cost = -0.2
-        level_cost_1 = 0
         chance = {
             factor = 0
         }
@@ -482,7 +427,6 @@ lotn_idea_dip_modifiers = {
     #}
     custom_colonial_type_change_cost_modifier = {
         colonial_type_change_cost_modifier = -0.2
-        level_cost_1 = 0
         chance = {
             factor = 0
         }
@@ -492,7 +436,6 @@ lotn_idea_dip_modifiers = {
     }
     custom_colonial_subject_type_upgrade_cost_modifier = {
         colonial_subject_type_upgrade_cost_modifier = -0.2
-        level_cost_1 = 0
         chance = {
             factor = 0
         }
@@ -519,21 +462,21 @@ lotn_idea_mil_modifiers = {
 	#	}
 	#}
 	
-	custom_amount_of_carolean = {
-		has_carolean = yes
-		amount_of_carolean = 0.25
-		level_cost_1 = 10
-		level_cost_2 = 20
-		level_cost_3 = 30
-		level_cost_4 = 40
+	# custom_amount_of_carolean = {
+	# 	has_carolean = yes
+	# 	amount_of_carolean = 0.25
+	# 	level_cost_1 = 10
+	# 	level_cost_2 = 20
+	# 	level_cost_3 = 30
+	# 	level_cost_4 = 40
 		
-		chance = {
-			factor = 0
-		}
-		enabled = {
-			has_dlc = "Lions of the North"
-		}
-	}
+	# 	chance = {
+	# 		factor = 0
+	# 	}
+	# 	enabled = {
+	# 		has_dlc = "Lions of the North"
+	# 	}
+	# }
 	
 	#custom_can_recruit_hussars = {
 	#	can_recruit_hussars = yes
@@ -549,28 +492,25 @@ lotn_idea_mil_modifiers = {
 	#	}
 	#}
 	
-	custom_amount_of_hussars = {
-		can_recruit_hussars = yes
-		amount_of_hussars = 5
-		level_cost_1 = 10
-		level_cost_2 = 20
-		level_cost_3 = 30
-		level_cost_4 = 40
+	# custom_amount_of_hussars = {
+	# 	can_recruit_hussars = yes
+	# 	amount_of_hussars = 5
+	# 	level_cost_1 = 10
+	# 	level_cost_2 = 20
+	# 	level_cost_3 = 30
+	# 	level_cost_4 = 40
 		
-		chance = {
-			factor = 0
-		}
-		enabled = {
-			has_dlc = "Lions of the North"
-		}
-	}
+	# 	chance = {
+	# 		factor = 0
+	# 	}
+	# 	enabled = {
+	# 		has_dlc = "Lions of the North"
+	# 	}
+	# }
 	
 	custom_military_tactics = {
 		military_tactics = 0.025
-		level_cost_1 = 10
-		level_cost_2 = 25
-		level_cost_3 = 35
-		level_cost_4 = 50
+		max_level = 4
 		
 		chance = {
 			factor = 0.1
@@ -580,16 +520,6 @@ lotn_idea_mil_modifiers = {
 	custom_max_hostile_attrition = {
 		max_hostile_attrition = 1
 		max_level = 10
-		level_cost_1 = 10
-		level_cost_2 = 20
-		level_cost_3 = 30
-		level_cost_4 = 40
-		level_cost_5 = 55
-		level_cost_6 = 75
-		level_cost_7 = 90
-		level_cost_8 = 105
-		level_cost_9 = 125
-		level_cost_10 = 150
 		
 		chance = {
 			factor = 0.1
@@ -598,10 +528,7 @@ lotn_idea_mil_modifiers = {
 	
 	custom_morale_damage = {
 		morale_damage = 0.05
-		level_cost_1 = 6
-		level_cost_2 = 12
-		level_cost_3 = 18
-		level_cost_4 = 24
+		max_level = 4
 		
 		chance = {
 			factor = 0.1
@@ -610,10 +537,7 @@ lotn_idea_mil_modifiers = {
 	
 	custom_morale_damage_received = {
 		morale_damage_received = -0.05
-		level_cost_1 = 6
-		level_cost_2 = 12
-		level_cost_3 = 18
-		level_cost_4 = 24
+		max_level = 4
 		
 		chance = {
 			factor = 0.1
@@ -622,7 +546,6 @@ lotn_idea_mil_modifiers = {
 	
 	custom_attack_bonus_in_capital_terrain = {
 		attack_bonus_in_capital_terrain = 1
-		level_cost_1 = 50
 		max_level = 1
 		
 		chance = {
@@ -632,7 +555,6 @@ lotn_idea_mil_modifiers = {
 	
 	custom_can_bypass_forts = {
 		can_bypass_forts = yes
-		level_cost_1 = 50
 		max_level = 1
 		
 		chance = {
@@ -642,7 +564,6 @@ lotn_idea_mil_modifiers = {
 	
 	custom_force_march_free = {
 		force_march_free = yes
-		level_cost_1 = 10
 		max_level = 1
 		
 		chance = {
@@ -652,8 +573,6 @@ lotn_idea_mil_modifiers = {
 	
 	custom_global_attacker_dice_roll_bonus = {
 		global_attacker_dice_roll_bonus = 1
-		level_cost_1 = 25
-		level_cost_2 = 50
 		max_level = 1
 		
 		chance = {
@@ -663,8 +582,6 @@ lotn_idea_mil_modifiers = {
 	
 	custom_global_defender_dice_roll_bonus = {
 		global_defender_dice_roll_bonus = 1
-		level_cost_1 = 25
-		level_cost_2 = 50
 		max_level = 1
 		
 		chance = {
@@ -674,8 +591,6 @@ lotn_idea_mil_modifiers = {
 	
 	custom_own_territory_dice_roll_bonus = {
 		own_territory_dice_roll_bonus = 1
-		level_cost_1 = 25
-		level_cost_2 = 50
 		max_level = 1
 		
 		chance = {
@@ -685,10 +600,6 @@ lotn_idea_mil_modifiers = {
 	
 	custom_regiment_manpower_usage = {
 		regiment_manpower_usage = -0.1
-		level_cost_1 = 25
-		level_cost_2 = 60
-		level_cost_3 = 100
-		level_cost_4 = 175
 		max_level = 4
 		
 		chance = {
@@ -725,7 +636,6 @@ lotn_idea_mil_modifiers = {
     custom_may_build_supply_depot = {
         may_build_supply_depot = yes
         max_level = 1
-        level_cost_1 = 10
         chance = {
             factor = 0.25
         }
@@ -733,7 +643,6 @@ lotn_idea_mil_modifiers = {
     custom_may_refill_garrison = {
         may_refill_garrison = yes
         max_level = 1
-        level_cost_1 = 10
         chance = {
             factor = 0.25
         }
@@ -741,7 +650,6 @@ lotn_idea_mil_modifiers = {
     custom_may_return_manpower_on_disband = {
         may_return_manpower_on_disband = yes
         max_level = 1
-        level_cost_1 = 30
         chance = {
             factor = 0.5
         }

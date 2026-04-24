@@ -11,85 +11,35 @@ groups = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
+			value = 0
 		}
 	}
 	eastern = {
 		start_level = 3
 		start_cost_modifier = 0.20
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
+			value = 0
 		}
 	}
 	ottoman = {
 		start_level = 3
 		start_cost_modifier = 0.25
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
+			value = 0
 		}
 	}
 	muslim = {
 		start_level = 3
 		start_cost_modifier = 0.40
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
+			value = 0
 		}
 	}
 	indian = {
 		start_level = 3
 		start_cost_modifier = 0.5
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
+			value = 0
 		}
 	}
 	east_african = {
@@ -97,17 +47,7 @@ groups = {
 		start_cost_modifier = 0.5
 		nation_designer_unit_type = sub_saharan
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
+			value = 0
 		}
 	}
 	central_african = {
@@ -115,34 +55,14 @@ groups = {
 		start_cost_modifier = 0.65
 		nation_designer_unit_type = sub_saharan
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 50
+			value = 0
 		}
 	}
 	chinese = {
 		start_level = 3
 		start_cost_modifier = 0.6
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
+			value = 0
 		}
 	}
 	nomad_group = {
@@ -152,34 +72,14 @@ groups = {
 			has_reform = steppe_horde
 		}
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
+			value = 0
 		}
 	}
 	sub_saharan = { #West African
 		start_level = 2
 		start_cost_modifier = 0.6
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 50
+			value = 0
 		}
 	}
 	north_american = {
@@ -208,7 +108,7 @@ groups = {
 		start_cost_modifier = 2.5
 		is_primitive = yes
 		nation_designer_cost = {
-			value = 50
+			value = 0
 		}
 	}
 	polynesian_tech = {
@@ -216,17 +116,7 @@ groups = {
 		start_cost_modifier = 2
 		is_primitive = yes
 		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 50
+			value = 0
 		}
 	}
 	
@@ -234,18 +124,8 @@ groups = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_unit_type = high_american
-		nation_designer_trigger = {
-			capital_scope = {
-				OR = {
-					continent = new_world
-					continent = north_america
-					continent = south_america
-					continent = oceania
-				}
-			}
-		}
 		nation_designer_cost = {
-			value = 75
+			value = 0
 		}
 	}
 }

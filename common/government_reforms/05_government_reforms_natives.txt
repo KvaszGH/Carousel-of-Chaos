@@ -24,24 +24,6 @@ native_basic_reform = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	nation_designer_trigger = {
-		OR = {
-			technology_group = north_american
-			technology_group = south_american
-			technology_group = aboriginal_tech
-		}
-		NOT = { religion = nahuatl }
-		NOT = { religion = mesoamerican_religion }
-		NOT = { religion = inti }
-		capital_scope = {
-			OR = {
-				continent = north_america
-				continent = south_america
-				continent = new_world
-				region = australia_region
-			}
-		}
-	}
 }
 
 native_chiefdom_reform = {
@@ -49,7 +31,7 @@ native_chiefdom_reform = {
 	allow_normal_conversion = yes
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 
 	modifiers = {
 		tribal_development_growth = 0.02
@@ -60,7 +42,7 @@ native_federation_reform = {
 	icon = "tribal_council"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 	modifiers = {
 		global_manpower_modifier = 0.2
 	}
@@ -70,7 +52,7 @@ native_clan_council_reform = {
 	icon = "native_clan_council_reform"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 	modifiers = {
 		diplomatic_upkeep = 1
 		diplomats = 1
@@ -81,7 +63,7 @@ native_hereditary_reform = {
 	icon = "crown"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 	modifiers = {
 		stability_cost_modifier = -0.33
 	}
@@ -352,14 +334,12 @@ native_trading_with_foreigners_reform = {
 			limit = { NOT = { owner = { exists = yes } } }
 			settle_province = ROOT
 		}
-		set_country_flag = was_native_country
 		if = {
 			limit = {
 				native_sponsor_scope = {
 					exists = yes
 				}
 			}
-			on_native_government_change_effect = yes
 			change_government = native_sponsor_scope
 			embrace_institutions_of = native_sponsor_scope
 			change_government_reform_progress = -350 # Doing it like this to avoid that migration code triggers
@@ -386,7 +366,6 @@ native_becomes_monarchy_reform = {
 			settle_province = ROOT
 		}
 		set_country_flag = populists_in_government
-		on_native_government_change_effect = yes
 		change_government = monarchy
 		change_government_reform_progress = -450 # Doing it like this to avoid that migration code triggers
 	}
@@ -407,7 +386,6 @@ native_becomes_republic_reform = {
 			settle_province = ROOT
 		}
 		set_country_flag = populists_in_government
-		on_native_government_change_effect = yes
 		change_government = republic
 		change_government_reform_progress = -250 # Doing it like this to avoid that migration code triggers
 	}
@@ -439,7 +417,6 @@ native_becomes_theocracy_reform = {
 			settle_province = ROOT
 		}
 		set_country_flag = populists_in_government
-		on_native_government_change_effect = yes
 		change_government = theocracy
 		change_government_reform_progress = -250 # Doing it like this to avoid that migration code triggers
 	}
@@ -466,7 +443,6 @@ native_becomes_horde_reform = {
 			settle_province = ROOT
 		}
 		set_country_flag = populists_in_government
-		on_native_government_change_effect = yes
 		change_government = tribal
 		add_government_reform = steppe_horde
 		change_unit_type = nomad_group

@@ -4,8 +4,6 @@ leviathan_idea_adm_modifiers = {
 	custom_yearly_zeal = {
 		yearly_revolutionary_zeal = 0.5
 		max_level = 2
-		level_cost_1 = 15
-		level_cost_2 = 60
 		chance = {
 			factor = 0
 		}
@@ -17,8 +15,6 @@ leviathan_idea_adm_modifiers = {
 	custom_missionary_strength_heretics = {
 		global_heretic_missionary_strength = 0.01
 		max_level = 2
-		level_cost_1 = 0
-		level_cost_2 = 15
 		chance = {
 			factor = 1
 			modifier = {
@@ -31,8 +27,6 @@ leviathan_idea_adm_modifiers = {
 	custom_missionary_strength_heathens = {
 		global_heathen_missionary_strength = 0.01
 		max_level = 2
-		level_cost_1 = 0
-		level_cost_2 = 15
 		chance = {
 			factor = 1
 			modifier = {
@@ -55,10 +49,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_tribal_development_growth = {
 		tribal_development_growth = 0.015
-		level_cost_1 = 10
-		level_cost_2 = 20
-		level_cost_3 = 30
-		level_cost_4 = 40
 		chance = {
 			factor = 0
 		}
@@ -66,9 +56,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_great_project_upgrade_cost = {
 		great_project_upgrade_cost = -0.1
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		enabled = {
 			has_dlc = "Leviathan"
 		}
@@ -80,8 +67,6 @@ leviathan_idea_adm_modifiers = {
 	custom_all_power_cost = {
 		all_power_cost = -0.05
 		max_level = 2
-		level_cost_1 = 30
-		level_cost_2 = 60
 		chance = {
 			factor = 0.05
 		}
@@ -90,7 +75,6 @@ leviathan_idea_adm_modifiers = {
 	custom_country_admin_power = {
 		country_admin_power = 1
 		max_level = 1
-		level_cost_1 = 60
 		chance = {
 			factor = 0.05
 		}
@@ -98,9 +82,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_monthly_splendor = {
 		monthly_splendor = 2
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.25
 		}
@@ -111,9 +92,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_monthly_heir_claim_increase = {
 		monthly_heir_claim_increase = 0.2
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0
 		}
@@ -121,9 +99,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_monthly_support_heir_gain = {
 		monthly_support_heir_gain = 0.1
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0
 		}
@@ -131,9 +106,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_monthly_federation_favor_growth = {
 		monthly_federation_favor_growth = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0
 		}
@@ -141,9 +113,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_yearly_tribal_allegiance = {
 		yearly_government_power = 0.5
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0
 		}
@@ -151,8 +120,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_imperial_mandate = {
 		imperial_mandate = 0.1
-		level_cost_1 = 5
-		level_cost_2 = 30
 		max_level = 2
 		chance = {
 			factor = 1
@@ -168,7 +135,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_election_cycle = {
 		election_cycle = -1
-		level_cost_1 = 30
 		max_level = 1
 		chance = {
 			factor = 0.25
@@ -181,8 +147,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_reelection_cost = {
 		reelection_cost = -0.15
-		level_cost_1 = 10
-		level_cost_2 = 20
 		max_level = 2
 		chance = {
 			factor = 0.25
@@ -202,9 +166,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_trade_company_governing_cost = {
 		trade_company_governing_cost = -0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.33
 		}
@@ -220,9 +181,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_curia_powers_cost = {
 		curia_powers_cost = -0.15
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		enabled = {
 			has_dlc = "Emperor"
 		}
@@ -237,9 +195,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_prestige_per_development_from_conversion = {
 		prestige_per_development_from_conversion = 0.5
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 		}
@@ -248,8 +203,6 @@ leviathan_idea_adm_modifiers = {
 	custom_good_monthly_karma = {
 		monthly_karma = 0.01
 		max_level = 2
-		level_cost_1 = 9
-		level_cost_2 = 18
 		enabled = {
 			has_dlc = "Common Sense"
 		}
@@ -267,8 +220,6 @@ leviathan_idea_adm_modifiers = {
 	custom_bad_monthly_karma = {
 		monthly_karma = -0.01
 		max_level = 2
-		level_cost_1 = 9
-		level_cost_2 = 18
 		enabled = {
 			has_dlc = "Common Sense"
 		}
@@ -285,9 +236,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_min_autonomy_in_territories = {
 		min_autonomy_in_territories = -0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.25
 		}
@@ -296,7 +244,6 @@ leviathan_idea_adm_modifiers = {
 	custom_free_policy = {
 		free_policy = 1
 		max_level = 1
-		level_cost_1 = 40
 		chance = {
 			factor = 0.2
 		}
@@ -305,7 +252,6 @@ leviathan_idea_adm_modifiers = {
 	custom_possible_policy = {
 		possible_policy = 1
 		max_level = 1
-		level_cost_1 = 50
 		chance = {
 			factor = 0.2
 		}
@@ -313,9 +259,6 @@ leviathan_idea_adm_modifiers = {
 
 	custom_innovativeness_gain = {
 		innovativeness_gain = 0.25
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		enabled = {
 			has_dlc = "Rule Britannia"
 		}
@@ -327,7 +270,6 @@ leviathan_idea_adm_modifiers = {
 	custom_cb_on_religious_enemies = {
 		cb_on_religious_enemies = yes
 		max_level = 1
-		level_cost_1 = 50
 		chance = {
 			factor = 0.01
 		}
@@ -336,7 +278,6 @@ leviathan_idea_adm_modifiers = {
 	custom_idea_claim_colonies = {
 		idea_claim_colonies = yes
 		max_level = 1
-		level_cost_1 = 35
 		chance = {
 			factor = 0.1
 			modifier = {
@@ -358,7 +299,6 @@ leviathan_idea_dip_modifiers = {
 	custom_trade_company_investment_cost = {
 		trade_company_investment_cost = -0.15
 		max_level = 2
-		level_cost_2 = 20
 		chance = {
 			factor = 0.15
 		}
@@ -370,8 +310,6 @@ leviathan_idea_dip_modifiers = {
 	custom_admiral_cost = {
 		admiral_cost = -0.25
 		max_level = 2
-		level_cost_1 = 15
-		level_cost_2 = 30
 		chance = {
 			factor = 1
 			modifier = {
@@ -415,7 +353,6 @@ leviathan_idea_dip_modifiers = {
 	custom_country_diplomatic_power = {
 		country_diplomatic_power = 1
 		max_level = 1
-		level_cost_1 = 60
 		chance = {
 			factor = 0.05
 		}
@@ -424,9 +361,6 @@ leviathan_idea_dip_modifiers = {
 	custom_discovered_relations_impact = {
 		discovered_relations_impact = -0.25
 		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.1
 		}
@@ -452,7 +386,6 @@ leviathan_idea_dip_modifiers = {
 	custom_idea_slave_raiders_on_same_religion = {
 		may_perform_slave_raid_on_same_religion = yes
 		max_level = 1
-		level_cost_1 = 40
 		enabled = {
 			OR = {
 				has_dlc = "Mare Nostrum"
@@ -472,9 +405,6 @@ leviathan_idea_dip_modifiers = {
 	custom_ship_power_propagation = {
 		ship_power_propagation = 0.1
 		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 1
 			modifier = {
@@ -492,9 +422,6 @@ leviathan_idea_dip_modifiers = {
 
 	custom_expel_minorities_cost = {
 		expel_minorities_cost = -0.1
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.1
 		}
@@ -506,9 +433,6 @@ leviathan_idea_dip_modifiers = {
 
 	custom_colonist_placement_chance = {
 		colonist_placement_chance = 0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 1
 			modifier = {
@@ -520,8 +444,6 @@ leviathan_idea_dip_modifiers = {
 
 	custom_appoint_cardinal_cost = {
 		appoint_cardinal_cost = -0.25
-		level_cost_1 = 10
-		level_cost_2 = 20
 		max_level = 2
 		enabled = {
 			has_dlc = "Emperor"
@@ -544,9 +466,6 @@ leviathan_idea_dip_modifiers = {
 
 	custom_promote_culture_cost = {
 		promote_culture_cost = -0.1
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.5
 			modifier = {
@@ -558,9 +477,6 @@ leviathan_idea_dip_modifiers = {
 
 	custom_rival_change_cost = {
 		rival_change_cost = -0.25
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.25
 		}
@@ -568,9 +484,6 @@ leviathan_idea_dip_modifiers = {
 
 	custom_global_ship_repair = {
 		global_ship_repair = 0.1
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 1
 			modifier = {
@@ -582,9 +495,6 @@ leviathan_idea_dip_modifiers = {
 
 	custom_global_ship_cost = {
 		global_ship_cost = -0.05
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 1
 			modifier = {
@@ -597,7 +507,6 @@ leviathan_idea_dip_modifiers = {
 	custom_reduced_stab_impacts = {
 		reduced_stab_impacts = yes
 		max_level = 1
-		level_cost_1 = 35
 		chance = {
 			factor = 0.01
 		}
@@ -606,7 +515,6 @@ leviathan_idea_dip_modifiers = {
 	custom_may_explore = {
 		may_explore = yes
 		max_level = 1
-		level_cost_1 = 40
 		chance = {
 			factor = 0.01
 		}
@@ -618,10 +526,6 @@ leviathan_idea_mil_modifiers = {
 
 	custom_yearly_army_professionalism = {
 		yearly_army_professionalism = 0.005
-		level_cost_1 = 10
-		level_cost_2 = 20
-		level_cost_3 = 30
-		level_cost_4 = 40
 		enabled = {
 			has_dlc = "Cradle of Civilization"
 		}
@@ -653,7 +557,6 @@ leviathan_idea_mil_modifiers = {
 	custom_infantry_fire = {
 		infantry_fire = 1
 		max_level = 1
-		level_cost_1 = 25
 		chance = {
 			factor = 0.05
 		}
@@ -662,7 +565,6 @@ leviathan_idea_mil_modifiers = {
 	custom_infantry_shock = {
 		infantry_shock = 1
 		max_level = 1
-		level_cost_1 = 25
 		chance = {
 			factor = 0.05
 		}
@@ -671,7 +573,6 @@ leviathan_idea_mil_modifiers = {
 	custom_cavalry_fire = {
 		cavalry_fire = 1
 		max_level = 1
-		level_cost_1 = 25
 		chance = {
 			factor = 0.1
 			modifier = {
@@ -693,7 +594,6 @@ leviathan_idea_mil_modifiers = {
 	custom_cavalry_shock = {
 		cavalry_shock = 1
 		max_level = 1
-		level_cost_1 = 25
 		chance = {
 			factor = 0.1
 			modifier = {
@@ -715,8 +615,6 @@ leviathan_idea_mil_modifiers = {
 	custom_artillery_shock = {
 		artillery_shock = 1
 		max_level = 2
-		level_cost_1 = 15
-		level_cost_2 = 25
 		chance = {
 			factor = 0.05
 		}
@@ -725,9 +623,6 @@ leviathan_idea_mil_modifiers = {
 	custom_reserves_organisation = {
 		reserves_organisation = 0.15
 		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 0.25
 		}
@@ -736,9 +631,6 @@ leviathan_idea_mil_modifiers = {
 	custom_global_supply_limit_modifier = {
 		global_supply_limit_modifier = 0.1
 		max_level = 4
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
 		chance = {
 			factor = 1
 		}
@@ -747,8 +639,6 @@ leviathan_idea_mil_modifiers = {
 	custom_general_cost = {
 		general_cost = -0.25
 		max_level = 2
-		level_cost_1 = 15
-		level_cost_2 = 30
 		chance = {
 			factor = 0.25
 		}
@@ -775,7 +665,6 @@ leviathan_idea_mil_modifiers = {
 	custom_country_military_power = {
 		country_military_power = 1
 		max_level = 1
-		level_cost_1 = 60
 		chance = {
 			factor = 0.05
 		}
@@ -784,7 +673,6 @@ leviathan_idea_mil_modifiers = {
 	custom_extra_manpower_at_religious_war = {
 		extra_manpower_at_religious_war = yes
 		max_level = 1
-		level_cost_1 = 50
 		chance = {
 			factor = 0.15
 			modifier = {

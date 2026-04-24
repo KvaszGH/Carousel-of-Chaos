@@ -223,9 +223,6 @@ holy_state_legacy = {
 	legacy_government = yes
 	valid_for_new_country = no
 	valid_for_nation_designer = yes
-	nation_designer_trigger = {
-		religion = catholic
-	}
 	monarchy = yes
 	modifiers = {
     	governing_capacity = 100
@@ -315,7 +312,7 @@ merchant_republic = {
 	legacy_government = yes
 	valid_for_new_country = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	duration = 4
 
 	republican_name = yes
@@ -380,7 +377,7 @@ venetian_merchant_republic = {
 	legacy_government = yes
 	valid_for_new_country = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	has_term_election = no
 
 	republican_name = yes
@@ -475,14 +472,10 @@ prussian_republic = {
 	legacy_government = yes
 	valid_for_new_country = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 100
+	nation_designer_cost = 0
 	has_term_election = no
 	republican_name = yes
 	royal_marriage = no
-	
-	nation_designer_trigger = {
-		primary_culture =  prussian
-	}
 	
 	trigger = {
 		OR = {
@@ -519,9 +512,6 @@ signoria = {
 	duration = 12
 	valid_for_new_country = yes
 	valid_for_nation_designer = yes
-	nation_designer_trigger = {
-		culture_group = latin
-	}
 	nation_designer_cost = 0
 	republican_name = yes
 	royal_marriage = yes
@@ -546,7 +536,7 @@ pirate_republic = {
 	legacy_government = yes
 	valid_for_new_country = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	duration = 4
 	
 	republican_name = yes
@@ -560,18 +550,6 @@ pirate_republic = {
 			has_dlc = "Golden Century"
 			has_dlc = "Lions of the North"
 		}
-		capital_scope = {
-			has_port = yes
-			OR = {
-				province_is_on_an_island = yes
-				region = maghreb_region
-			}
-		}
-		NOT = { technology_group = andean }
-		NOT = { technology_group = north_american }
-		NOT = { technology_group = south_american }
-		NOT = { technology_group = aboriginal_tech }
-		NOT = { technology_group = mesoamerican }
 	}
 	
 	potential = {	
@@ -621,16 +599,6 @@ pirate_kingdom = {
 	
 	potential = {	
 		has_dlc = "Golden Century"
-	}
-	
-	nation_designer_trigger = {
-		capital_scope = {
-			has_port = yes
-			OR = {
-				province_is_on_an_island = yes
-				region = maghreb_region
-			}
-		}
 	}
 	
 	factions_frame = 9
@@ -717,16 +685,6 @@ black_market_consortium_government = {
 	royal_marriage = no
 	
 	republic = yes
-	
-	nation_designer_trigger = {
-		capital_scope = {
-			has_port = yes
-			OR = {
-				province_is_on_an_island = yes
-				region = maghreb_region
-			}
-		}
-	}
 	
 	factions_frame = 9
 	factions = {
@@ -1144,7 +1102,7 @@ monastic_order_government = {
 	rulers_can_be_generals = yes
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 
 	different_religion_acceptance = -20
 	different_religion_group_acceptance = -50
@@ -1180,12 +1138,9 @@ holy_state_theocracy = {
 	legacy_government = yes
 	valid_for_new_country = no
 	valid_for_nation_designer = yes
-	nation_designer_trigger = {
-		religion = catholic
-	}
 	religion = yes
 	monastic = yes
-	
+
 	is_eligible_for_hre_emperor = no
 
 	modifiers = {
@@ -1257,9 +1212,6 @@ steppe_horde_legacy = {
 	raze_province = yes
 
 	nation_designer_cost = 0
-	nation_designer_trigger = {
-		technology_group = nomad_group
-	}
 
 	monarchy = yes
 	start_territory_to_estates = 0.5
@@ -1291,9 +1243,6 @@ great_mongol_state_legacy = {
 	raze_province = yes
 
 	nation_designer_cost = 0
-	nation_designer_trigger = {
-		technology_group = nomad_group
-	}
 
 	monarchy = yes
 	start_territory_to_estates = 0.5
@@ -1374,7 +1323,7 @@ tribal_federation_legacy = {
 
 	valid_for_new_country = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 
 	monarchy = yes
 	modifiers = {
@@ -1428,21 +1377,6 @@ native_council_legacy = {
 
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	nation_designer_trigger = {
-		OR = {
-			technology_group = north_american
-			technology_group = south_american
-			technology_group = aboriginal_tech
-		}
-		capital_scope = {
-			OR = {
-				continent = north_america
-				continent = south_america
-				continent = new_world
-				region = australia_region
-			}
-		}
-	}
 
     fixed_rank = 1
 	modifiers = {
@@ -1467,7 +1401,7 @@ siberian_native_council = {
 	allow_migration = yes
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = -10
+	nation_designer_cost = 0
 
     fixed_rank = 1
 	modifiers = {
@@ -1499,7 +1433,7 @@ austrian_archduchy = {
 		}
 	}
 	monarchy = yes
-	nation_designer_cost = 5
+	nation_designer_cost = 0
 	modifiers = {
 		governing_capacity = 100
 		prestige = 0.5
@@ -1520,7 +1454,7 @@ english_monarchy_legacy = {
 	allow_convert = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 15
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		has_dlc = "Common Sense"
 	}
@@ -1561,7 +1495,7 @@ mamluk_government_legacy = {
 	queen = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 60
+	nation_designer_cost = 0
 
 	monarchy = yes
 	modifiers = {
@@ -1594,7 +1528,7 @@ feudal_theocracy_legacy = { #Imamates, Sheikdoms
 	allow_convert = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 60
+	nation_designer_cost = 0
 
 	monarchy = yes
 	modifiers = {
@@ -1625,7 +1559,7 @@ elective_monarchy_legacy = {
 	valid_for_new_country = no
 	allow_convert = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		has_dlc = "Res Publica"
 	}
@@ -1664,11 +1598,9 @@ imperial_city = {
 	royal_marriage = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		has_dlc = "Common Sense"
-		capital_scope = { is_part_of_hre = yes }
-		NOT = { num_custom_nation_provinces = 2 }
 	}
 
 
@@ -1760,7 +1692,7 @@ ambrosian_republic_legacy = {
 	royal_marriage = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 
 	republic = yes
 	modifiers = {
@@ -1790,7 +1722,7 @@ dutch_republic_legacy = {
 	royal_marriage = yes
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		has_dlc = "Res Publica"
 	}
@@ -1844,17 +1776,6 @@ celestial_empire_legacy = {
 	valid_for_nation_designer = no
 	allow_convert = no
 	start_territory_to_estates = 0.9
-	nation_designer_trigger = {
-		culture_group = east_asian
-		technology_group = chinese
-		capital_scope = {
-			OR = {
-				region = north_china_region
-				region = xinan_region
-				region = south_china_region
-			}
-		}
-	}
 	factions = {
 		temples
 		enuchs
@@ -1891,11 +1812,7 @@ ottoman_government_legacy = {
 	valid_for_new_country = no
 	allow_convert = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
-	nation_designer_trigger = {
-		religion_group = muslim
-	}
-
+	nation_designer_cost = 0
 
 	modifiers = {
 		governing_capacity = 250
@@ -1933,7 +1850,7 @@ prussian_monarchy_legacy = {
 	}
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 100
+	nation_designer_cost = 0
 
 	monarchy = yes
 	modifiers = {
@@ -1967,7 +1884,7 @@ iqta_legacy = {
 	valid_for_new_country = no
 	allow_convert = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		religion_group = muslim
 	}
@@ -2011,8 +1928,6 @@ daimyo_legacy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		culture_group = japanese_g
-		technology_group = chinese
 		capital_scope = { region = japan_region }
 	}
 
@@ -2040,9 +1955,6 @@ indian_sultanate_legacy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		capital_scope = {
-			superregion = india_superregion
-		}
 		religion_group = muslim
 	}
 
@@ -2083,10 +1995,8 @@ shogunate_legacy = {
 	allow_vassal_alliance = yes
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 50
+	nation_designer_cost = 0
 	nation_designer_trigger = {
-		culture_group = japanese_g
-		technology_group = chinese
 		capital_scope = { region = japan_region }
 		owns = 1020
 	}
@@ -2126,11 +2036,6 @@ indep_daimyo_legacy = {
 
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	nation_designer_trigger = {
-		culture_group = japanese_g
-		technology_group = chinese
-		capital_scope = { region = japan_region }
-	}
 
 	monarchy = yes
 	modifiers = {
@@ -2186,7 +2091,7 @@ american_republic_legacy = {
 	valid_for_new_country = no
 	allow_convert = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 15
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		has_dlc = "American Dream"
 	}
@@ -2224,7 +2129,7 @@ federal_republic_legacy = {
 	valid_for_new_country = no
 	allow_convert = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 15
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		has_dlc = "American Dream"
 	}
@@ -2258,7 +2163,7 @@ peasants_republic_legacy = {
 
 	valid_for_new_country = no
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 
 	duration = 5
 
@@ -2296,14 +2201,7 @@ veche_republic_legacy = {
 	royal_marriage = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
-
-	nation_designer_trigger = {
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
-	}
+	nation_designer_cost = 0
 
 	factions = {
 		mr_aristocrats
@@ -2411,14 +2309,7 @@ principality_legacy = {
 	allow_convert = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 5
-	nation_designer_trigger = {
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
-		religion = orthodox
-	}
+	nation_designer_cost = 0
 
     fixed_rank = 1
 	modifiers = {
@@ -2450,15 +2341,7 @@ tsardom_legacy = {
 	allow_convert = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
-
-	nation_designer_trigger = {
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
-		religion = orthodox
-	}
+	nation_designer_cost = 0
 
     fixed_rank = 3
 	modifiers = {
@@ -2490,7 +2373,7 @@ cossacks_legacy_reform = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 60
+	nation_designer_cost = 0
 
 
 	republic = yes
@@ -2529,7 +2412,7 @@ united_cantons_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 
 
 	republic = yes
@@ -2553,12 +2436,7 @@ sacred_kingdom_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
-	nation_designer_trigger = {
-		NOT = { religion_group = christian }
-		NOT = { religion_group = muslim }
-		NOT = { religion_group = jewish_group }
-	}
+	nation_designer_cost = 0
 
 
 	republic = yes
@@ -2580,7 +2458,7 @@ negusa_nagast_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 40
+	nation_designer_cost = 0
 
 
 	republic = yes
@@ -2620,7 +2498,7 @@ solomonic_empire_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 50
+	nation_designer_cost = 0
 	fixed_rank = 3
 
 
@@ -2653,7 +2531,7 @@ matrilineal_system_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 
 	modifiers = {
 		heir_chance = -0.5
@@ -2671,7 +2549,7 @@ tribal_confederacy_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 
 	modifiers = {
 		nobles_influence_modifier = 0.15
@@ -2710,7 +2588,7 @@ mossi_federal_kingdom_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 
 	potential = {
 		OR = {
@@ -2763,7 +2641,7 @@ musa_rule_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 
 	modifiers = {
 		advisor_pool = 1
@@ -2781,7 +2659,7 @@ great_man_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 
 	modifiers = {
 		leader_cost = -0.1
@@ -2798,7 +2676,7 @@ shaka_regime_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 
 	modifiers = {
 		monarch_military_power = 2
@@ -2826,7 +2704,7 @@ feudal_tribe_legacy = {
 	valid_for_new_country = no
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	potential = {
 	}
 	trigger = {

@@ -28,9 +28,6 @@ steppe_horde = {
 	raze_province = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	nation_designer_trigger = {
-		technology_group = nomad_group
-	}
 
 	lock_level_when_selected = yes
 
@@ -137,7 +134,7 @@ tribal_federation = {
 	}
 
 	valid_for_nation_designer = yes
-	nation_designer_cost = 20
+	nation_designer_cost = 0
 	legacy_equivalent = tribal_federation_legacy
 
 	lock_level_when_selected = yes
@@ -192,7 +189,7 @@ polynesian_tribe = {
 		has_reform = polynesian_tribe
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = -10
+	nation_designer_cost = 0
 	native_mechanic = no
 	allow_migration = yes
 	fixed_rank = 1
@@ -233,7 +230,7 @@ siberian_tribe = {
 		has_reform = siberian_tribe
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = -10
+	nation_designer_cost = 0
 	legacy_equivalent = siberian_native_council
 	native_mechanic = no
 	allow_migration = yes
@@ -277,10 +274,6 @@ gond_kingdom = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	nation_designer_trigger = {
-		technology_group = indian
-		primary_culture = gondi
-	}
 	legacy_equivalent = tribal_kingdom_legacy
 	modifiers = {
 		defensiveness = 0.2
@@ -305,10 +298,7 @@ sacred_kingdom = {
 		}
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
-	nation_designer_trigger = {
-		religion_group = pagan
-	}
+	nation_designer_cost = 0
 	legacy_equivalent = sacred_kingdom_legacy
 	maintain_dynasty = yes
 	
@@ -332,7 +322,7 @@ matrilineal_system = {
 	icon = "british_queen"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	legacy_equivalent = matrilineal_system_legacy
 	potential = {
 		OR = {
@@ -358,7 +348,7 @@ tribal_confederacy = {
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
 	lock_level_when_selected = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	legacy_equivalent = tribal_confederacy_legacy
 
 	potential = {
@@ -403,7 +393,7 @@ great_man = {
 	icon = "chieftain"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	legacy_equivalent = great_man_legacy
 	potential = {
 		OR = {
@@ -441,7 +431,7 @@ shaka_regime = {
 	icon = "chieftain"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	legacy_equivalent = shaka_regime_legacy
 	potential = {
 		OR = {
@@ -480,7 +470,7 @@ feudal_tribe = {
 	icon = "tribal_civil_society"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 30
+	nation_designer_cost = 0
 	legacy_equivalent = feudal_tribe_legacy
 	lock_level_when_selected = yes
 	potential = {
