@@ -1,0 +1,14 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+early_boost = {
+	years_of_nationalism = -30
+	ae_impact = -0.8
+	global_regiment_cost = -0.5
+	own_territory_dice_roll_bonus = 2
+	culture_conversion_cost = -0.9
+	culture_conversion_time = -0.9
+	global_missionary_strength = 0.5
+	core_creation = -0.25
+}
