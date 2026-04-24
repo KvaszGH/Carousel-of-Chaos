@@ -4886,8 +4886,8 @@ german_austrian_reform = {
 }
 
 german_bavarian_reform = {
-	icon = "politician"
-	potential = {
+    icon = "politician"
+    potential = {
 		custom_trigger_tooltip = {
 			tooltip = GER_unlocked_via_kaiserreich
 			has_country_flag = GER_unlocked_bavarian_reform
