@@ -927,7 +927,6 @@ ottoman_government = {
 	allow_normal_conversion = yes
 	icon = "ottoman_government"
 	potential = {
-		religion_group = muslim
 		OR = {
 			AND = {
 				tag = TUR
@@ -1831,7 +1830,6 @@ modernized_ottoman_government = {
 	allow_normal_conversion = yes
 	icon = "modernized_ottoman_government"
 	potential = {
-		religion_group = muslim
 		OR = {
 			has_reform = modernized_ottoman_government
 			has_unlocked_government_reform = { government_reform = modernized_ottoman_government }
@@ -1891,7 +1889,6 @@ reorganized_ottoman_government = {
 	allow_normal_conversion = yes
 	icon = "ottoman_government"
 	potential = {
-		religion_group = muslim
 		OR = {
 			has_reform = reorganized_ottoman_government
 			has_unlocked_government_reform = { government_reform = reorganized_ottoman_government }
